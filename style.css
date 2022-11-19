@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cadetblue;
+    font-size: 15px;
+}
+
+#text1 ,#text3 {
+    animation-name: text1et3;
+    animation-duration: 8s;
+}
+
+@keyframes text1et3 {
+    0% {
+        font-size: 15px;
+        background-color: rgba(238,34,26,0.85);
+    }
+
+    25% {
+        font-size: 20px;
+        background-color: rgba(238,109,22,0.85);
+    }
+
+    50% {
+        font-size: 25px;
+        background-color: rgba(238,163,22,0.85);
+    }
+
+    75% {
+        font-size: 30px;
+        background-color: rgba(238,234,29,0.85);
+    }
+
+    100% {
+        font-size: 35px;
+        background-color: rgba(164,238,20,0.85);
+    }
+}
+
+
